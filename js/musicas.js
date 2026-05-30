@@ -37,6 +37,16 @@ const DEFAULT_MUSICAS = [
     capa: "",
     duracao: "2:43"
   },
+
+   {
+    id: 4,
+    titulo: "Irmão na ginga",
+    artista: "Mestre Chitão",
+    playlist: "Geral",
+    arquivo: "musicas/AUD-20260411-WA0033.mp3",
+    capa: "",
+    duracao: "4:47"
+  },
 ];
 function getMusicasData() {
   const saved = localStorage.getItem(STORAGE_KEY);

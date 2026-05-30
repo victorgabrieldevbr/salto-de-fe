@@ -67,6 +67,16 @@ const DEFAULT_MUSICAS = [
     capa: "",
     duracao: "2:40"
   },
+    
+   {
+    id: 6,
+    titulo: "Queda Nova - Na roda me encontrei",
+    artista: "Mestre Chitão",
+    playlist: "Geral",
+    arquivo: "musicas/AUD-20260309-WA0010.mp3",
+    capa: "",
+    duracao: "2:04"
+  },
 ];
 function getMusicasData() {
   const saved = localStorage.getItem(STORAGE_KEY);

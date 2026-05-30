@@ -17,7 +17,7 @@ const DEFAULT_MUSICAS = [
     capa: "",
     duracao: "2:51"
   }
-];
+  
  {
     id: 2,
     titulo: "Ctat foco e missão",

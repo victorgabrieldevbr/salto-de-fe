@@ -16,9 +16,9 @@ const DEFAULT_MUSICAS = [
     arquivo: "musicas/AUD-20260125-WA0085.mp3",
     capa: "",
     duracao: "2:51"
-  }
-  
- {
+  },
+
+  {
     id: 2,
     titulo: "Ctat foco e missão",
     artista: "Mestre Chitão",

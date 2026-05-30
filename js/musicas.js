@@ -35,7 +35,7 @@ const DEFAULT_MUSICAS = [
     playlist: "Geral",
     arquivo: "musicas/AUD-20260307-WA0097.mp3",
     capa: "",
-    duracao: "2:43"
+    duracao: "2:44"
   },
 
    {
@@ -46,6 +46,16 @@ const DEFAULT_MUSICAS = [
     arquivo: "musicas/AUD-20260411-WA0033.mp3",
     capa: "",
     duracao: "4:47"
+  },
+
+   {
+    id: 5,
+    titulo: "Laços de ginga",
+    artista: "Mestre Chitão",
+    playlist: "Geral",
+    arquivo: "musicas/AUD-20260411-WA0031.mp3",
+    capa: "",
+    duracao: "3:38"
   },
 ];
 function getMusicasData() {

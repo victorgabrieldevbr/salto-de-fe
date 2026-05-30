@@ -69,7 +69,7 @@ const DEFAULT_MUSICAS = [
   },
     
    {
-    id: 6,
+    id: 7,
     titulo: "Queda Nova - Na roda me encontrei",
     artista: "Mestre Chitão",
     playlist: "Geral",

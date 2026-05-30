@@ -26,7 +26,17 @@ const DEFAULT_MUSICAS = [
     arquivo: "musicas/AUD-20260124-WA0035.mp3",
     capa: "",
     duracao: "2:23"
-  }
+  },
+
+   {
+    id: 3,
+    titulo: "Fazendeiro - Do sonho a luta",
+    artista: "Mestre Chitão",
+    playlist: "Geral",
+    arquivo: "musicas/AUD-20260307-WA0097.mp3",
+    capa: "",
+    duracao: "2:43"
+  },
 ];
 function getMusicasData() {
   const saved = localStorage.getItem(STORAGE_KEY);

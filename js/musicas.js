@@ -18,7 +18,16 @@ const DEFAULT_MUSICAS = [
     duracao: "2:51"
   }
 ];
-
+ {
+    id: 1,
+    titulo: "Ctat foco e missão",
+    artista: "Mestre Chitão",
+    playlist: "Geral",
+    arquivo: "musicas/AUD-20260124-WA0035.mp3",
+    capa: "",
+    duracao: "2:23"
+  }
+];
 function getMusicasData() {
   const saved = localStorage.getItem(STORAGE_KEY);
   if (saved) {

@@ -19,7 +19,7 @@ const DEFAULT_MUSICAS = [
   }
 ];
  {
-    id: 1,
+    id: 2,
     titulo: "Ctat foco e missão",
     artista: "Mestre Chitão",
     playlist: "Geral",

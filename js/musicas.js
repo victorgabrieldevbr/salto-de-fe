@@ -10,9 +10,9 @@ const FAVS_KEY    = 'saltodefe_favs';
 const DEFAULT_MUSICAS = [
   {
     id: 1,
-    titulo: "Minha Música",
-    artista: "Grupo Salto de Fé",
-    playlist: "corridos",
+    titulo: "Salto de fé na roda",
+    artista: "Mestre Chitão",
+    playlist: "Geral",
     arquivo: "musicas/AUD-20260125-WA0085.mp3",
     capa: "",
     duracao: "2:51"

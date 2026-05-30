@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grupo de Capoeira Salto de Fé – Mestre Chitão</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Raleway:wght@300;400;600;700&family=UnifrakturMaguntia&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<header id="navbar">
+  <nav class="nav-container">
+    <div class="nav-logo">
+      <div class="logo-circle">
+        <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" class="logo-svg">
+          <circle cx="60" cy="60" r="58" fill="#1a0a00" stroke="#8B1A1A" stroke-width="3"/>
+          <circle cx="60" cy="60" r="50" fill="none" stroke="#c8a84b" stroke-width="1.5"/>
+          <!-- Cross -->
+          <rect x="52" y="25" width="16" height="50" fill="#8B1A1A" rx="2"/>
+          <rect x="35" y="42" width="50" height="16" fill="#8B1A1A" rx="2"/>
+          <circle cx="60" cy="60" r="45" fill="none" stroke="#c8a84b" stroke-width="0.8" stroke-dasharray="4,3"/>
+          <!-- Text arc top -->
+          <path id="topArc" d="M 15,60 A 45,45 0 0,1 105,60" fill="none"/>
+          <text font-family="Raleway" font-size="9" fill="#c8a84b" font-weight="700" letter-spacing="2">
+            <textPath href="#topArc" startOffset="12%">GRUPO DE CAPOEIRA</textPath>
+          </text>
+          <!-- Text arc bottom -->
+          <path id="botArc" d="M 108,65 A 45,45 0 0,1 12,65" fill="none"/>
+          <text font-family="Raleway" font-size="9" fill="#c8a84b" font-weight="700" letter-spacing="2">
+            <textPath href="#botArc" startOffset="16%">MESTRE CHITÃO</textPath>
+          </text>
+        </svg>
+      </div>
+      <div class="logo-text">
+        <span class="logo-title">SALTO DE FÉ</span>
+        <span class="logo-sub">Grupo de Capoeira</span>
+      </div>
+    </div>
+
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#inicio" class="nav-link active">Início</a></li>
+      <li><a href="#sobre" class="nav-link">Sobre</a></li>
+      <li><a href="#historia" class="nav-link">História</a></li>
+      <li><a href="#musicas" class="nav-link">Músicas</a></li>
+      <li><a href="#galeria" class="nav-link">Galeria</a></li>
+      <li><a href="#eventos" class="nav-link">Eventos</a></li>
+      <li><a href="#contato" class="nav-link">Contato</a></li>
+      <li><a href="admin.html" class="nav-link nav-admin"><i class="fas fa-cog"></i> Admin</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ========== HERO ========== -->
+<section id="inicio" class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Est. Tradição & Fé</div>
+    <h1 class="hero-title">
+      <span class="hero-title-main">SALTO DE FÉ</span>
+      <span class="hero-title-sub">Grupo de Capoeira</span>
+    </h1>
+    <p class="hero-desc">A música que guia, a tradição que ensina,<br>a fé que nos faz seguir.</p>
+    <div class="hero-actions">
+      <a href="#musicas" class="btn btn-primary"><i class="fas fa-play"></i> Ouvir Músicas</a>
+      <a href="#sobre" class="btn btn-outline">Conheça o Grupo</a>
+    </div>
+  </div>
+  <div class="hero-scroll-hint">
+    <span>Role para baixo</span>
+    <i class="fas fa-chevron-down"></i>
+  </div>
+</section>
+
+<!-- ========== SOBRE ========== -->
+<section id="sobre" class="section sobre">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Nossa Essência</span>
+      <h2 class="section-title">Sobre o Grupo</h2>
+      <div class="title-ornament"></div>
+    </div>
+    <div class="sobre-grid">
+      <div class="sobre-logo-wrap">
+        <div class="sobre-logo-ring">
+          <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" class="sobre-logo-svg">
+            <circle cx="60" cy="60" r="58" fill="#1a0a00" stroke="#8B1A1A" stroke-width="3"/>
+            <circle cx="60" cy="60" r="50" fill="none" stroke="#c8a84b" stroke-width="1.5"/>
+            <rect x="52" y="25" width="16" height="50" fill="#8B1A1A" rx="2"/>
+            <rect x="35" y="42" width="50" height="16" fill="#8B1A1A" rx="2"/>
+            <circle cx="60" cy="60" r="45" fill="none" stroke="#c8a84b" stroke-width="0.8" stroke-dasharray="4,3"/>
+            <path id="topArc2" d="M 15,60 A 45,45 0 0,1 105,60" fill="none"/>
+            <text font-family="Raleway" font-size="9" fill="#c8a84b" font-weight="700" letter-spacing="2">
+              <textPath href="#topArc2" startOffset="12%">GRUPO DE CAPOEIRA</textPath>
+            </text>
+            <path id="botArc2" d="M 108,65 A 45,45 0 0,1 12,65" fill="none"/>
+            <text font-family="Raleway" font-size="9" fill="#c8a84b" font-weight="700" letter-spacing="2">
+              <textPath href="#botArc2" startOffset="16%">MESTRE CHITÃO</textPath>
+            </text>
+          </svg>
+        </div>
+      </div>
+      <div class="sobre-text">
+        <p>O <strong>Grupo de Capoeira Salto de Fé</strong>, fundado pelo <strong>Mestre Chitão</strong>, é uma referência de tradição, arte e cultura afro-brasileira. Com raízes profundas na capoeira Angola e Regional, o grupo carrega a missão de preservar e difundir os ensinamentos dos grandes mestres.</p>
+        <p>Mais do que uma arte marcial, a capoeira é para nós um caminho de vida — que ensina disciplina, respeito, ginga e fé. A cada roda, reafirmamos nosso compromisso com a cultura, a história e a comunidade.</p>
+        <div class="sobre-stats">
+          <div class="stat">
+            <span class="stat-number">20+</span>
+            <span class="stat-label">Anos de tradição</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">150+</span>
+            <span class="stat-label">Alunos formados</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">3</span>
+            <span class="stat-label">Núcleos ativos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== HISTÓRIA ========== -->
+<section id="historia" class="section historia">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Raízes & Memória</span>
+      <h2 class="section-title">Nossa História</h2>
+      <div class="title-ornament"></div>
+    </div>
+    <div class="historia-tabs">
+      <button class="tab-btn active" data-tab="grupo">O Grupo</button>
+      <button class="tab-btn" data-tab="mestre">Mestre Chitão</button>
+    </div>
+    <div class="tab-content active" id="tab-grupo">
+      <div class="historia-content">
+        <div class="historia-text">
+          <h3>A Jornada do Salto de Fé</h3>
+          <p>O Grupo de Capoeira Salto de Fé nasceu do sonho de um mestre que acreditava que a capoeira poderia transformar vidas. Fundado com poucos alunos e muita determinação, o grupo cresceu ao longo dos anos tornando-se referência na região.</p>
+          <p>A escolha do nome "Salto de Fé" reflete a filosofia do grupo: é preciso ter coragem para dar o salto, e fé para acreditar que se chegará ao outro lado. Essa máxima guia cada treino, cada roda e cada conquista.</p>
+          <p>Ao longo de sua trajetória, o grupo participou de festivais nacionais e internacionais, difundindo a capoeira como patrimônio imaterial da humanidade, reconhecida pela UNESCO em 2014.</p>
+        </div>
+        <div class="historia-timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-body">
+              <span class="timeline-year">Fundação</span>
+              <p>Criação do Grupo Salto de Fé por Mestre Chitão</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-body">
+              <span class="timeline-year">Expansão</span>
+              <p>Abertura dos primeiros núcleos em cidades vizinhas</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-body">
+              <span class="timeline-year">Reconhecimento</span>
+              <p>Participação em festivais nacionais e internacionais</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-body">
+              <span class="timeline-year">Hoje</span>
+              <p>150+ alunos formados, tradição viva em cada roda</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-content" id="tab-mestre">
+      <div class="historia-content">
+        <div class="historia-text">
+          <h3>Mestre Chitão — O Guardião da Tradição</h3>
+          <p>Mestre Chitão é um dos maiores nomes da capoeira na sua região. Iniciou sua jornada na capoeira ainda criança, aprendendo com mestres que carregavam a sabedoria dos grandes patriarcas da arte.</p>
+          <p>Com décadas de dedicação, Mestre Chitão desenvolveu um estilo único que une a malícia da Angola à velocidade da Regional, sempre com a musicalidade como alma do jogo. Berimbau, atabaque e pandeiro são seus aliados na construção de rodas inesquecíveis.</p>
+          <p>Além de capoeirista, é educador, músico e guardião de uma tradição que ele transmite com amor e rigor a cada um de seus alunos. Sua vida é prova viva de que a capoeira é um caminho de transformação.</p>
+          <blockquote class="mestre-quote">
+            "A capoeira não se aprende só com o corpo. Aprende-se com a alma, com o coração e com a fé."
+            <cite>— Mestre Chitão</cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PLAYER DE MÚSICAS ========== -->
+<section id="musicas" class="section musicas-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Ritmo & Tradição</span>
+      <h2 class="section-title">Músicas da Capoeira</h2>
+      <div class="title-ornament"></div>
+    </div>
+    <div class="player-layout">
+
+      <!-- SIDEBAR PLAYLISTS -->
+      <div class="player-sidebar">
+        <div class="sidebar-logo">
+          <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" width="50" height="50">
+            <circle cx="60" cy="60" r="58" fill="#1a0a00" stroke="#8B1A1A" stroke-width="3"/>
+            <rect x="52" y="25" width="16" height="50" fill="#8B1A1A" rx="2"/>
+            <rect x="35" y="42" width="50" height="16" fill="#8B1A1A" rx="2"/>
+          </svg>
+          <div>
+            <div style="font-weight:700;font-size:.9rem;color:#e8d5a3">SALTO DE FÉ</div>
+            <div style="font-size:.7rem;color:#888">Grupo de Capoeira</div>
+          </div>
+        </div>
+
+        <div class="sidebar-search">
+          <i class="fas fa-search"></i>
+          <input type="text" id="searchInput" placeholder="Buscar músicas..." />
+        </div>
+
+        <nav class="sidebar-nav">
+          <a href="#" class="sidebar-link active"><i class="fas fa-home"></i> Início</a>
+          <a href="#" class="sidebar-link"><i class="fas fa-heart"></i> Favoritas</a>
+          <a href="#" class="sidebar-link"><i class="fas fa-list"></i> Todas</a>
+        </nav>
+
+        <div class="sidebar-playlists">
+          <div class="sidebar-section-title">PLAYLISTS</div>
+          <ul id="playlistMenu">
+            <li class="pl-item active" data-playlist="all"><i class="fas fa-music"></i> Todas as Músicas</li>
+            <li class="pl-item" data-playlist="toques"><i class="fas fa-drum"></i> Toques Tradicionais</li>
+            <li class="pl-item" data-playlist="ladainhas"><i class="fas fa-pray"></i> Ladainhas</li>
+            <li class="pl-item" data-playlist="corridos"><i class="fas fa-bolt"></i> Corridos</li>
+            <li class="pl-item" data-playlist="chulas"><i class="fas fa-star"></i> Chulas</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- MAIN PLAYER AREA -->
+      <div class="player-main">
+        <!-- Now Playing Header -->
+        <div class="now-playing-header">
+          <div class="now-playing-cover" id="bigCover">
+            <div class="cover-placeholder">
+              <i class="fas fa-music"></i>
+            </div>
+          </div>
+          <div class="now-playing-info">
+            <div class="np-label">REPRODUZINDO AGORA</div>
+            <div class="np-title" id="npTitle">Selecione uma música</div>
+            <div class="np-artist" id="npArtist">—</div>
+            <div class="np-playlist" id="npPlaylist">Salto de Fé</div>
+            <div class="np-actions">
+              <button class="np-fav-btn" id="npFavBtn" title="Favoritar"><i class="far fa-heart"></i></button>
+              <span class="np-duration" id="npDuration">0:00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Track List -->
+        <div class="track-list-wrap">
+          <table class="track-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th colspan="2">TÍTULO</th>
+                <th>ARTISTA / GRUPO</th>
+                <th><i class="far fa-clock"></i></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="trackListBody">
+              <!-- Populated by JS -->
+            </tbody>
+          </table>
+          <div class="no-tracks" id="noTracks" style="display:none">
+            <i class="fas fa-music"></i>
+            <p>Nenhuma música encontrada.<br>Adicione arquivos MP3 na pasta <code>/musicas/</code> e cadastre pelo painel admin.</p>
+            <a href="admin.html" class="btn btn-primary" style="margin-top:1rem">Ir para o Admin</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTTOM PLAYER BAR -->
+  <div class="player-bar" id="playerBar">
+    <div class="player-bar-left">
+      <div class="bar-cover" id="barCover">
+        <div class="cover-placeholder-sm"><i class="fas fa-music"></i></div>
+      </div>
+      <div class="bar-info">
+        <div class="bar-title" id="barTitle">—</div>
+        <div class="bar-artist" id="barArtist">—</div>
+      </div>
+      <button class="bar-fav" id="barFavBtn"><i class="far fa-heart"></i></button>
+    </div>
+
+    <div class="player-bar-center">
+      <div class="bar-controls">
+        <button class="ctrl-btn" id="shuffleBtn" title="Aleatório"><i class="fas fa-random"></i></button>
+        <button class="ctrl-btn" id="prevBtn" title="Anterior"><i class="fas fa-step-backward"></i></button>
+        <button class="ctrl-btn play-pause-btn" id="playPauseBtn" title="Play/Pause">
+          <i class="fas fa-play"></i>
+        </button>
+        <button class="ctrl-btn" id="nextBtn" title="Próxima"><i class="fas fa-step-forward"></i></button>
+        <button class="ctrl-btn" id="repeatBtn" title="Repetir"><i class="fas fa-redo"></i></button>
+      </div>
+      <div class="bar-progress">
+        <span class="time-current" id="timeCurrent">0:00</span>
+        <div class="progress-bar-wrap" id="progressWrap">
+          <div class="progress-bar-bg">
+            <div class="progress-bar-fill" id="progressFill"></div>
+          </div>
+          <input type="range" class="progress-range" id="progressRange" min="0" max="100" value="0" step="0.1"/>
+        </div>
+        <span class="time-total" id="timeTotal">0:00</span>
+      </div>
+    </div>
+
+    <div class="player-bar-right">
+      <i class="fas fa-volume-up volume-icon"></i>
+      <div class="volume-wrap">
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill volume-fill" id="volumeFill"></div>
+        </div>
+        <input type="range" class="progress-range volume-range" id="volumeRange" min="0" max="100" value="80" step="1"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== GALERIA ========== -->
+<section id="galeria" class="section galeria">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Momentos</span>
+      <h2 class="section-title">Galeria de Fotos</h2>
+      <div class="title-ornament"></div>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item gi-large">
+        <div class="gallery-placeholder gp1">
+          <i class="fas fa-image"></i>
+          <span>Roda de Capoeira</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder gp2">
+          <i class="fas fa-image"></i>
+          <span>Treino</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder gp3">
+          <i class="fas fa-image"></i>
+          <span>Evento</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder gp4">
+          <i class="fas fa-image"></i>
+          <span>Festival</span>
+        </div>
+      </div>
+      <div class="gallery-item gi-large">
+        <div class="gallery-placeholder gp5">
+          <i class="fas fa-image"></i>
+          <span>Mestre Chitão</span>
+        </div>
+      </div>
+    </div>
+    <p class="gallery-note"><i class="fas fa-info-circle"></i> Substitua os placeholders por fotos reais na pasta <code>/imagens/</code></p>
+  </div>
+</section>
+
+<!-- ========== EVENTOS ========== -->
+<section id="eventos" class="section eventos">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Agenda</span>
+      <h2 class="section-title">Eventos & Rodas</h2>
+      <div class="title-ornament"></div>
+    </div>
+    <div class="eventos-grid" id="eventosGrid">
+      <!-- Sample events -->
+      <div class="evento-card">
+        <div class="evento-date">
+          <span class="evento-day">15</span>
+          <span class="evento-month">JUN</span>
+        </div>
+        <div class="evento-info">
+          <h3>Roda Aberta – Salto de Fé</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Praça Central, Felixlândia – MG</p>
+          <p><i class="fas fa-clock"></i> 16h00 às 20h00</p>
+          <span class="evento-tag">Roda</span>
+        </div>
+      </div>
+      <div class="evento-card">
+        <div class="evento-date">
+          <span class="evento-day">22</span>
+          <span class="evento-month">JUN</span>
+        </div>
+        <div class="evento-info">
+          <h3>Workshop de Musicalidade</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Sede do Grupo</p>
+          <p><i class="fas fa-clock"></i> 9h00 às 13h00</p>
+          <span class="evento-tag evento-tag-workshop">Workshop</span>
+        </div>
+      </div>
+      <div class="evento-card">
+        <div class="evento-date">
+          <span class="evento-day">06</span>
+          <span class="evento-month">JUL</span>
+        </div>
+        <div class="evento-info">
+          <h3>Festival Regional de Capoeira</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Ginásio Municipal</p>
+          <p><i class="fas fa-clock"></i> Todo o dia</p>
+          <span class="evento-tag evento-tag-festival">Festival</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTATO ========== -->
+<section id="contato" class="section contato">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Fale Conosco</span>
+      <h2 class="section-title">Contato</h2>
+      <div class="title-ornament"></div>
+    </div>
+    <div class="contato-grid">
+      <div class="contato-info">
+        <h3>Entre em Contato</h3>
+        <p>Quer conhecer o grupo, começar a treinar ou convidar o Salto de Fé para um evento? Entre em contato conosco!</p>
+        <ul class="contato-list">
+          <li><i class="fas fa-map-marker-alt"></i> Felixlândia – Minas Gerais, Brasil</li>
+          <li><i class="fas fa-phone"></i> (XX) XXXXX-XXXX</li>
+          <li><i class="fas fa-envelope"></i> contato@saltodefe.com.br</li>
+          <li><i class="fas fa-calendar-alt"></i> Treinos: Seg, Qua, Sex – 18h</li>
+        </ul>
+        <div class="social-links">
+          <a href="#" class="social-btn" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-btn" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-btn" title="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" class="social-btn" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" class="social-btn" title="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <form class="contato-form" id="contatoForm">
+        <div class="form-group">
+          <label>Nome</label>
+          <input type="text" placeholder="Seu nome completo" required />
+        </div>
+        <div class="form-group">
+          <label>E-mail</label>
+          <input type="email" placeholder="seu@email.com" required />
+        </div>
+        <div class="form-group">
+          <label>Assunto</label>
+          <select>
+            <option>Quero treinar capoeira</option>
+            <option>Convite para evento</option>
+            <option>Parceria</option>
+            <option>Outro</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Mensagem</label>
+          <textarea rows="5" placeholder="Sua mensagem..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">
+          <i class="fas fa-paper-plane"></i> Enviar Mensagem
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" width="70" height="70">
+          <circle cx="60" cy="60" r="58" fill="#1a0a00" stroke="#8B1A1A" stroke-width="3"/>
+          <circle cx="60" cy="60" r="50" fill="none" stroke="#c8a84b" stroke-width="1.5"/>
+          <rect x="52" y="25" width="16" height="50" fill="#8B1A1A" rx="2"/>
+          <rect x="35" y="42" width="50" height="16" fill="#8B1A1A" rx="2"/>
+        </svg>
+        <h3>Salto de Fé</h3>
+        <p>Grupo de Capoeira<br/>Mestre Chitão</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#historia">História</a></li>
+          <li><a href="#musicas">Músicas</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#eventos">Eventos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>Redes Sociais</h4>
+        <div class="footer-social-links">
+          <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+          <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+          <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+          <a href="#"><i class="fab fa-tiktok"></i> TikTok</a>
+        </div>
+      </div>
+      <div class="footer-quote">
+        <blockquote>
+          "Capoeira é para homem, menino e mulher; só não aprende quem não quer."
+        </blockquote>
+        <cite>— Ditado popular</cite>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Grupo de Capoeira Salto de Fé – Mestre Chitão. Todos os direitos reservados.</p>
+      <p>Desenvolvido com <i class="fas fa-heart" style="color:#8B1A1A"></i> para a cultura afro-brasileira</p>
+    </div>
+  </div>
+</footer>
+
+<audio id="audioPlayer"></audio>
+<script src="js/musicas.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -57,6 +57,16 @@ const DEFAULT_MUSICAS = [
     capa: "",
     duracao: "3:38"
   },
+  
+   {
+    id: 6,
+    titulo: "Projetar é Missão",
+    artista: "Mestre Chitão",
+    playlist: "Geral",
+    arquivo: "musicas/AUD-20260411-WA0028.mp3",
+    capa: "",
+    duracao: "2:40"
+  },
 ];
 function getMusicasData() {
   const saved = localStorage.getItem(STORAGE_KEY);

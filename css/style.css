@@ -714,12 +714,10 @@ img { max-width: 100%; }
 .gallery-item.gi-large { grid-row: span 2; }
 
 .gallery-placeholder {
-  width: 100%; height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: .75rem;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
   border-radius: var(--radius);
   border: 1px solid rgba(200,168,75,.15);
   color: rgba(200,168,75,.3);
@@ -728,21 +726,10 @@ img { max-width: 100%; }
   cursor: pointer;
 }
 .gallery-placeholder:hover { border-color: var(--bege); color: var(--bege); }
-.gallery-placeholder i { font-size: 2rem; }
-
-.gp1 { background: linear-gradient(135deg, #1a0a00, #2a1208); }
-.gp2 { background: linear-gradient(135deg, #180808, #200d0d); }
-.gp3 { background: linear-gradient(135deg, #0f0f0a, #1a1508); }
-.gp4 { background: linear-gradient(135deg, #0f0a0a, #1e0a0a); }
-.gp5 { background: linear-gradient(135deg, #120c08, #220e0a); }
-
-.gallery-note { text-align: center; margin-top: 1.5rem; font-size: .8rem; color: var(--texto-dim); }
-.gallery-note code { background: rgba(200,168,75,.1); padding: .1rem .4rem; border-radius: 3px; color: var(--bege); }
-.gallery-placeholder {
-  position: relative;
-}
 
 .gallery-placeholder img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -763,7 +750,16 @@ img { max-width: 100%; }
   justify-content: center;
   gap: .75rem;
 }
+.gallery-fallback i { font-size: 2rem; }
 
+.gp1 { background: linear-gradient(135deg, #1a0a00, #2a1208); }
+.gp2 { background: linear-gradient(135deg, #180808, #200d0d); }
+.gp3 { background: linear-gradient(135deg, #0f0f0a, #1a1508); }
+.gp4 { background: linear-gradient(135deg, #0f0a0a, #1e0a0a); }
+.gp5 { background: linear-gradient(135deg, #120c08, #220e0a); }
+
+.gallery-note { text-align: center; margin-top: 1.5rem; font-size: .8rem; color: var(--texto-dim); }
+.gallery-note code { background: rgba(200,168,75,.1); padding: .1rem .4rem; border-radius: 3px; color: var(--bege); }
 /* ============ EVENTOS ============ */
 .eventos { background: var(--preto-card); }
 

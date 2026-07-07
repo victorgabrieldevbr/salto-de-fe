@@ -2,7 +2,6 @@
 //  SALTO DE FÉ – Gerenciador de Músicas
 //  musicas.js
 // ============================================
-
 const STORAGE_KEY = 'saltodefe_musicas';
 const FAVS_KEY    = 'saltodefe_favs';
 const MUSICAS_VERSION = 2; // aumente esse número toda vez que editar DEFAULT_MUSICAS
@@ -19,7 +18,6 @@ const DEFAULT_MUSICAS = [
     capa: "",
     duracao: "2:51"
   },
-
   {
     id: 2,
     titulo: "Ctat foco e missão",
@@ -29,8 +27,7 @@ const DEFAULT_MUSICAS = [
     capa: "",
     duracao: "2:23"
   },
-
-   {
+  {
     id: 3,
     titulo: "Fazendeiro - Do sonho a luta",
     artista: "Mestre Chitão",
@@ -39,8 +36,7 @@ const DEFAULT_MUSICAS = [
     capa: "",
     duracao: "2:44"
   },
-
-   {
+  {
     id: 4,
     titulo: "Irmão na ginga",
     artista: "Mestre Chitão",
@@ -49,8 +45,7 @@ const DEFAULT_MUSICAS = [
     capa: "",
     duracao: "4:47"
   },
-
-   {
+  {
     id: 5,
     titulo: "Laços de ginga",
     artista: "Mestre Chitão",
@@ -59,8 +54,7 @@ const DEFAULT_MUSICAS = [
     capa: "",
     duracao: "3:38"
   },
-  
-   {
+  {
     id: 6,
     titulo: "Projetar é Missão",
     artista: "Mestre Chitão",
@@ -69,8 +63,7 @@ const DEFAULT_MUSICAS = [
     capa: "",
     duracao: "2:40"
   },
-    
-   {
+  {
     id: 7,
     titulo: "Queda Nova - Na roda me encontrei",
     artista: "Mestre Chitão",
@@ -79,8 +72,7 @@ const DEFAULT_MUSICAS = [
     capa: "",
     duracao: "2:04"
   },
-
-   {
+  {
     id: 8,
     titulo: "Dobby na roda",
     artista: "Mestre Chitão",
@@ -90,6 +82,7 @@ const DEFAULT_MUSICAS = [
     duracao: "2:41"
   },
 ];
+
 function getMusicasData() {
   const savedVersion = localStorage.getItem(VERSION_KEY);
   const saved = localStorage.getItem(STORAGE_KEY);
@@ -101,10 +94,6 @@ function getMusicasData() {
   // Versão nova ou primeira visita: usa a lista atualizada e reseta o cache
   localStorage.setItem(STORAGE_KEY, JSON.stringify(DEFAULT_MUSICAS));
   localStorage.setItem(VERSION_KEY, String(MUSICAS_VERSION));
-  return DEFAULT_MUSICAS;
-}
-  // First time: save defaults
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(DEFAULT_MUSICAS));
   return DEFAULT_MUSICAS;
 }
 

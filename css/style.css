@@ -165,9 +165,6 @@ img { max-width: 100%; }
   transition: all var(--transition);
 }
 .nav-link:hover, .nav-link.active { color: var(--bege-light); background: var(--bege-dim); }
-.nav-admin { color: var(--vermelho) !important; border: 1px solid var(--vermelho); }
-.nav-admin:hover { background: var(--vermelho-glow) !important; }
-
 .hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: .4rem; }
 .hamburger span { width: 24px; height: 2px; background: var(--bege); border-radius: 2px; transition: all var(--transition); }
 

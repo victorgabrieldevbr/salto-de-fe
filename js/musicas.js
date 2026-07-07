@@ -5,6 +5,8 @@
 
 const STORAGE_KEY = 'saltodefe_musicas';
 const FAVS_KEY    = 'saltodefe_favs';
+const MUSICAS_VERSION = 2; // aumente esse número toda vez que editar DEFAULT_MUSICAS
+const VERSION_KEY = 'saltodefe_musicas_version';
 
 // Músicas de exemplo – substitua pelos seus MP3 reais
 const DEFAULT_MUSICAS = [

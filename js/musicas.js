@@ -95,7 +95,7 @@ const DEFAULT_MUSICAS = [
     titulo: "Salto de fé (Historia do Mestre Chitão)",
     artista: "Mestre Chitão",
     playlist: "Geral",
-    arquivo: "musicas/AUD-20260619-WA0031.mp3",
+    arquivo: "musicas/AUD-20260619-WA0034.mp3",
     capa: "",
     duracao: "4:08"
   },
@@ -113,7 +113,7 @@ const DEFAULT_MUSICAS = [
     titulo: "Minha Historia na Capoeira",
     artista: "Mestre Chitão",
     playlist: "Geral",
-    arquivo: "musicas/AUD-20260619-WA0033.mp3",
+    arquivo: "musicas/AUD-20260619-WA0036.mp3",
     capa: "",
     duracao: "3:28"
 ];

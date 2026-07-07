@@ -288,8 +288,8 @@ img { max-width: 100%; }
 .sobre-logo-wrap { display: flex; justify-content: center; }
 
 .sobre-logo-ring {
-  width: 220px;
-  height: 220px;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
   padding: 1rem;
   background: radial-gradient(circle, rgba(139,26,26,.2), transparent);

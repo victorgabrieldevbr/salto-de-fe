@@ -131,6 +131,22 @@ img { max-width: 100%; }
 
 .logo-circle { width: 44px; height: 44px; }
 .logo-svg { width: 100%; height: 100%; }
+.logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.sobre-logo-svg,
+.sobre-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.footer-logo-img {
+  object-fit: contain;
+}
 
 .logo-text { display: flex; flex-direction: column; line-height: 1.2; }
 .logo-title { font-family: 'Playfair Display', serif; font-size: 1.15rem; color: var(--bege-light); font-weight: 900; }

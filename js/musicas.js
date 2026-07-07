@@ -77,7 +77,7 @@ const DEFAULT_MUSICAS = [
     titulo: "Dobby na roda",
     artista: "Mestre Chitão",
     playlist: "Geral",
-    arquivo: "musicas/Dobby-na-roda.mp3",
+    arquivo: "musicas/Dobby-na-roda.mpeg",
     capa: "",
     duracao: "2:41"
   },

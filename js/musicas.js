@@ -4,7 +4,7 @@
 // ============================================
 const STORAGE_KEY = 'saltodefe_musicas';
 const FAVS_KEY    = 'saltodefe_favs';
-const MUSICAS_VERSION = 2; // aumente esse número toda vez que editar DEFAULT_MUSICAS
+const MUSICAS_VERSION = 3; // aumente esse número toda vez que editar DEFAULT_MUSICAS
 const VERSION_KEY = 'saltodefe_musicas_version';
 
 // Músicas de exemplo – substitua pelos seus MP3 reais
@@ -99,7 +99,7 @@ const DEFAULT_MUSICAS = [
     capa: "",
     duracao: "4:08"
   },
-   {
+  {
     id: 11,
     titulo: "Forjados no Chão",
     artista: "Mestre Chitão",
@@ -116,6 +116,7 @@ const DEFAULT_MUSICAS = [
     arquivo: "musicas/AUD-20260619-WA0036.mp3",
     capa: "",
     duracao: "3:28"
+  }
 ];
 
 function getMusicasData() {

@@ -90,6 +90,32 @@ const DEFAULT_MUSICAS = [
     capa: "",
     duracao: "3:04"
   },
+  {
+    id: 10,
+    titulo: "Salto de fé (Historia do Mestre Chitão)",
+    artista: "Mestre Chitão",
+    playlist: "Geral",
+    arquivo: "musicas/AUD-20260619-WA0031.mp3",
+    capa: "",
+    duracao: "4:08"
+  },
+   {
+    id: 11,
+    titulo: "Forjados no Chão",
+    artista: "Mestre Chitão",
+    playlist: "Geral",
+    arquivo: "musicas/AUD-20260619-WA0032.mp3",
+    capa: "",
+    duracao: "1:54"
+  },
+  {
+    id: 12,
+    titulo: "Minha Historia na Capoeira",
+    artista: "Mestre Chitão",
+    playlist: "Geral",
+    arquivo: "musicas/AUD-20260619-WA0033.mp3",
+    capa: "",
+    duracao: "3:28"
 ];
 
 function getMusicasData() {

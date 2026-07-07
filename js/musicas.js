@@ -91,10 +91,18 @@ const DEFAULT_MUSICAS = [
   },
 ];
 function getMusicasData() {
+  const savedVersion = localStorage.getItem(VERSION_KEY);
   const saved = localStorage.getItem(STORAGE_KEY);
-  if (saved) {
+
+  if (saved && savedVersion === String(MUSICAS_VERSION)) {
     try { return JSON.parse(saved); } catch(e) {}
   }
+
+  // Versão nova ou primeira visita: usa a lista atualizada e reseta o cache
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(DEFAULT_MUSICAS));
+  localStorage.setItem(VERSION_KEY, String(MUSICAS_VERSION));
+  return DEFAULT_MUSICAS;
+}
   // First time: save defaults
   localStorage.setItem(STORAGE_KEY, JSON.stringify(DEFAULT_MUSICAS));
   return DEFAULT_MUSICAS;

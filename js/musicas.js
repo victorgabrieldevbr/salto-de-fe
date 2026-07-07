@@ -81,6 +81,15 @@ const DEFAULT_MUSICAS = [
     capa: "",
     duracao: "2:41"
   },
+  {
+    id: 9,
+    titulo: "Ursinho do Salto de Fé",
+    artista: "Mestre Chitão",
+    playlist: "Geral",
+    arquivo: "musicas/AUD-20260619-WA0030.mp3",
+    capa: "",
+    duracao: "3:04"
+  },
 ];
 
 function getMusicasData() {

@@ -77,6 +77,16 @@ const DEFAULT_MUSICAS = [
     capa: "",
     duracao: "2:04"
   },
+
+   {
+    id: 8,
+    titulo: "Dobby na roda",
+    artista: "Mestre Chitão",
+    playlist: "Geral",
+    arquivo: "musicas/Dobby-na-roda.mp3",
+    capa: "",
+    duracao: "2:41"
+  },
 ];
 function getMusicasData() {
   const saved = localStorage.getItem(STORAGE_KEY);
